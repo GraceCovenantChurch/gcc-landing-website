@@ -3,6 +3,7 @@
 /* ------- */
 .App {
   height: 100vh;
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -45,11 +46,11 @@
 
   .left {
     margin: auto;
-    width: 100vh;
+    width: 50vh;
   }
 
   .right {
-    width: 100vh;
+    width: 50vh;
     margin: auto;
   }
 }

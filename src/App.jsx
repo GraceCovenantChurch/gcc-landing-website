@@ -18,30 +18,26 @@ function App() {
         <div className={`${styles.fadeIn} ${styles.header}`}>
           <img className={styles.logo} alt="logo" src={logo} />
         </div>
-        <Grid container className={styles.container} spacing={10}>
+        <Grid container className={styles.container}>
           <Grid item xs={12}>
-            <Grid container justify="center" spacing={10}>
+            <Grid container justify="center">
               <Grid key={1} className={styles.left} item>
-                <div className={styles.delayedFadeIn}>
-                  <h1>
+                  <h1 className={styles.delayedFadeIn}>
                     <a href="http://ucity.gracecovenant.net">University City</a>
                   </h1>
-                  <p>
+                  <p className={styles.delayedFadeIn}>
                     UPenn and Drexel Campus <br />
                     11:30am Service Time
                   </p>
-                </div>
               </Grid>
               <Grid key={2} className={styles.right} item>
-                <div className={styles.delayedFadeIn}>
-                  <h1>
+                  <h1 className={styles.delayedFadeIn}>
                     <a href="https://ml.gracecovenant.net">Main Line</a>
                   </h1>
-                  <p>
+                  <p className={styles.delayedFadeIn}>
                     Western Philadelphia Suburbs <br />
                     9:45am Service Time
                   </p>
-                </div>
               </Grid>
             </Grid>
           </Grid>

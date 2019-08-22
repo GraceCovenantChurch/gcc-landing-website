@@ -1,5 +1,10 @@
 @import "typeface-ibm-plex-sans";
 @import "typeface-roboto";
+@import "normalize-scss";
+
+.root {
+  height: 100%;
+}
 
 body {
   margin: 0;

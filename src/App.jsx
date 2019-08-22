@@ -22,22 +22,22 @@ function App() {
           <Grid item xs={12}>
             <Grid container justify="center">
               <Grid key={1} className={styles.left} item>
-                  <h1 className={styles.delayedFadeIn}>
-                    <a href="http://ucity.gracecovenant.net">University City</a>
-                  </h1>
-                  <p className={styles.delayedFadeIn}>
-                    UPenn and Drexel Campus <br />
-                    11:30am Service Time
-                  </p>
+                <h1 className={styles.delayedFadeIn}>
+                  <a href="http://ucity.gracecovenant.net">University City</a>
+                </h1>
+                <p className={styles.delayedFadeIn}>
+                  UPenn and Drexel Campus <br />
+                  11:30am Service Time
+                </p>
               </Grid>
               <Grid key={2} className={styles.right} item>
-                  <h1 className={styles.delayedFadeIn}>
-                    <a href="https://ml.gracecovenant.net">Main Line</a>
-                  </h1>
-                  <p className={styles.delayedFadeIn}>
-                    Western Philadelphia Suburbs <br />
-                    9:45am Service Time
-                  </p>
+                <h1 className={styles.delayedFadeIn}>
+                  <a href="https://ml.gracecovenant.net">Main Line</a>
+                </h1>
+                <p className={styles.delayedFadeIn}>
+                  Western Philadelphia Suburbs <br />
+                  9:45am Service Time
+                </p>
               </Grid>
             </Grid>
           </Grid>

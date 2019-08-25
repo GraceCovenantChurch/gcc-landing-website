@@ -23,27 +23,22 @@ function App() {
             <Grid container justify="center">
               <Grid key={1} className={styles.left} item>
                 <h1 className={styles.delayedFadeIn}>
-                  <a href="http://ucity.gracecovenant.net">University City</a>
+                  <a href="http://ucity.gracecovenant.net">University City Site</a>
                 </h1>
-                <p className={styles.delayedFadeIn}>
-                  UPenn and Drexel Campus <br />
-                  11:30am Service Time
-                </p>
               </Grid>
               <Grid key={2} className={styles.right} item>
                 <h1 className={styles.delayedFadeIn}>
-                  <a href="https://ml.gracecovenant.net">Main Line</a>
+                  <a href="https://ml.gracecovenant.net">Main Line Site</a>
                 </h1>
-                <p className={styles.delayedFadeIn}>
-                  Western Philadelphia Suburbs <br />
-                  9:45am Service Time
-                </p>
               </Grid>
             </Grid>
           </Grid>
         </Grid>
         <div className={`${styles.footer} ${styles.fadeIn}`}>
           <img className={styles.gccText} alt="logo" src={gcctext} />
+        </div>
+        <div className={`${styles.missionStatement} ${styles.delayedFadeIn}`}>
+          <i>Raising up kingdom workers who are transformed by Christ to influence the world.</i>
         </div>
       </div>
     </div>

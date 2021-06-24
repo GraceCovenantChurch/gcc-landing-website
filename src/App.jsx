@@ -68,25 +68,25 @@ function App() {
           <Grid item xs={12}>
             <Button
               className={classes.buttons}
-              style={{ fontSize: "1.5vw" }}
+              style={{ fontSize: "1.3vw" }}
               color="primary"
               size="large"
               href="https://ml.gracecovenant.net"
             >
               <p className={styles.linkText}>Main Line</p>
-              <ArrowRight color="black" size="1.5vw" />
+              <ArrowRight color="black" size="1.3vw" />
             </Button>
           </Grid>
           <Grid item xs={12}>
             <Button
               className={classes.buttons}
-              style={{ fontSize: "1.5vw" }}
+              style={{ fontSize: "1.3vw" }}
               color="primary"
               size="large"
               href="http://ucity.gracecovenant.net"
             >
               <p className={styles.linkText}>University City</p>
-              <ArrowRight color="black" size="1.5vw" />
+              <ArrowRight color="black" size="1.3vw" />
             </Button>
           </Grid>
         </Grid>
